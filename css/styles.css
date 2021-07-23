@@ -124,20 +124,31 @@ ul {
   margin-left: 50px;
 }
 
+.contacts-icon {
+  margin-right: 10px;
+  fill: #757575;
+}
+
 .contacts-link {
-  display: block; /* Чтобы ссылка заняла всю ширину и не было справа зазора 4рх */
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   text-decoration: none;
+  align-items: center;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
 }
+
+.contacts-link:hover .contacts-icon {
+  fill: var(--accent-color);
+}
+
 /* Cтилизация блока-героя */
 .hero {
   padding-top: 200px;
