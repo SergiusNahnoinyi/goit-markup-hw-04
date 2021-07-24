@@ -365,6 +365,15 @@ ul {
   background-color: var(--secondary-background-color);
 }
 
+.container-footer {
+  display: flex;
+  align-items: center;
+}
+
+.container-footer-adress {
+  width: 231px;
+}
+
 .footer-company-name {
   font-family: Raleway;
   font-weight: bold;
@@ -392,6 +401,45 @@ ul {
 .company-link:focus {
   color: var(--accent-color);
 }
+
+.footer-social-thumb {
+  display: flex;
+  flex-direction: column;
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+
+.social-title {
+  text-transform: uppercase;
+  color: var(--hero-text-color);
+  margin-bottom: 20px;
+}
+.social-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-list-item > .social-link {
+  display: block;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  fill: var(--hero-text-color);
+}
+
+.social-link:hover {
+  background-color: var(--accent-color);
+}
+.social-link:hover {
+  fill: white;
+}
+
 /* Стилизация секции "Портфолио работ" */
 .section-header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
