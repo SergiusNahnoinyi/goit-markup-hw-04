@@ -211,17 +211,12 @@ ul {
   margin-right: 30px;
 }
 
-.features-list-item {
-  display: flex;
-  flex-direction: column;
-}
-
 .thumb {
-  width: 270px;
-  height: 120px;
+  display: flex;
+  justify-content: center;
   background-color: #f5f4fa;
   border-radius: 4px;
-  padding: 25px 100px;
+  padding: 25px 0px;
   margin-bottom: 30px;
 }
 
