@@ -145,7 +145,8 @@ ul {
   color: var(--accent-color);
 }
 
-.contacts-link:hover .contacts-icon {
+.contacts-link:hover .contacts-icon,
+.contacts-link:focus .contacts-icon {
   fill: var(--accent-color);
 }
 
@@ -341,7 +342,8 @@ ul {
   border: 1px solid var(--accent-color);
 }
 
-.clients-link:hover .clients-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--accent-color);
 }
 
@@ -416,10 +418,12 @@ ul {
   fill: var(--hero-text-color);
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-color);
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   fill: white;
 }
 
@@ -494,7 +498,8 @@ ul {
   text-decoration: none;
 }
 
-.project-link:hover {
+.project-link:hover,
+.project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
