@@ -274,7 +274,7 @@ ul {
 .card-container {
   text-align: center;
   padding: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
   background-color: var(--primary-background-color);
 }
 
@@ -289,22 +289,16 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.team-thumb {
+.team-social-list {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  width: auto;
-  height: 74px;
-  background-color: var(--primary-background-color);
-  padding: 0px 32px 30px;
+  margin-top: 16px;
 }
 
 .social-link {
-  display: block;
+  display: flex;
+  justify-content: center;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
   padding: 12px;
   fill: #afb1b8;
 }
